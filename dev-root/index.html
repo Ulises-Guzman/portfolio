@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <!--Favicons-->
+    <!-- <link
+     rel="stylesheet" 
+     sizes=""
+     href="ruta de directorio/archivo.png"
+    /> -->
+    <!-- <link
+     rel="icon" 
+     type="image/png"
+     sizes="32x32"
+     href="ruta de directorio/archivo.png"
+     /> -->
+
+     <!--Animanciones CSS CDN-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+        
+    <title>Ulises Guzmán | Dev & SysAdmin</title> 
+</head>
+
+<body>
+   <!-- Barra de Navegacion --> 
+   <nav>
+        <h1>Ulises David Guzmán</h1>
+        <ul class="navegacion">
+            <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+            <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+   </nav>
+
+   <!-- Sección Hero -->
+   <section class="hero" id="about">
+    <img 
+        src="src\images\ducky.jpg" 
+        alt="ulises-david-guzman"
+        loading="lazy"
+        class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-titulo">Sobre Mí</h2>
+        <p class="bio-texto">
+            Estoy constantemente Interesado en la Formación sobre Tecnologías de la Programación,
+             he realizado prácticas en Centro de Datos y Aplicaciones Personales,
+             que me han permitido desarrollar mi conocimiento de la industria
+             y obtener experiencia práctica en soporte y análisis de sistemas.
+             Soy una persona orientada al Crecimiento y al Desarrollo de Soluciones.
+        </p>
+    </div>
+   </section>
+
+   <!-- Seccion Mas Sobre -->
+   <section class="mas-sobre">
+        <h2>Más Sobre Mí</h2>
+        <p>
+            Actividad que siempre hago, de base, es el Mantenimiento y Administracion de equipos Clientes.
+            Logrando un estado Óptimo en su Funcionalidad.
+        </p>
+        <p>
+            Me he capacitado como SysAdmin, Linux Essential y Linux Administrator en CLA, Carrera Linux Argentina. 
+        </p>
+        <p>
+            También Mantengo el Estudio y la Continuidad en la Formación como Dev Full Stack .Net con C#, en maxiprograma.com
+        </p>
+   </section>
+
+   <!-- Seccion Habilidades -->
+   <section class="habilidades" id="habilidades">
+        <h2 class="encabezado-habilidades">Mis Mejores Habilidades</h2>
+
+        <div class="contenedor-habilidades">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                src="src\icons\Icons8_flat_linux.svg.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\terminal-gnome-adwaita.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\debian-logo.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />  
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img 
+                src="src\icons\icons8-microsoft.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+                
+                <img 
+                src="src\icons\Microsoft_.NET_logo.svg.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\icons8-c-sharp-logotipo.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+            </div>
+                
+            <div class="third-set animate__animated animate__pulse">
+                <img
+                src="src\icons\icons8-html.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\icons8-css.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\icons8-js.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+            </div>
+
+            <div class="fourth-set animate__animated animate__pulse">
+                <img 
+                src="src\icons\icons8-git.svg" 
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+            </div>
+        </div>
+
+   </section>
+
+   <!-- Website scripts -->
+   <script src="src/js/app.js"></script>
+
+   <!-- Ion icons scripts -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+</body>
+</html>
