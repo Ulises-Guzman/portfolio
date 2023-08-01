@@ -168,9 +168,10 @@
         <div class="contenedor-de-proyectos">
             <div class="contenedor-de-proyecto tarjeta-de-proyecto">
                 <img 
-                    src="src\images\git-wallpaper1.png"
-                    alt="proyectos-en-git"
-                    class="foto-proyecto"
+                  src="src\images\git-wallpaper1.png"
+                  alt="proyectos-en-git"
+                  loading="lazy"
+                  class="foto-proyecto"
                 />
                 <h3 class="titulo-de-proyecto">Proyectos en Git</h3>
                 <p class="detalle-de-proyecto">
@@ -186,10 +187,45 @@
         <h2>Contáctame</h2>
         <div class="formulario-contacto-contenedor">
             <div class="formulario-contacto">
-                
+               <form action="link-de-fromspree" method="POST">
+                    <div class="control-formulario">
+                        <label for="name">Nombre</label>
+                        <input 
+                          type="text"
+                          id="name"
+                          name="sender-name"
+                          placeholder="Escribe tu Nombre"
+                          class="input-field"
+                          required
+                          >
+                    </div>
+                    <div class="control-formulario">
+                        <label for="email">Correo Eletrónico</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="sender-email"
+                          placeholder="Ingresa tu Correo Electrónico"
+                          class="input-field"
+                          required
+                        >
+                    </div>
+                    <div class="control-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                          name="mensaje"
+                          id="mensaje"
+                          cols="60" 
+                          rows="10"
+                          placeholder="Escribe tu Mensaje"
+                          class="input-field"
+                          required
+                        ></textarea>
+
+                    </div>
+               </form> 
             </div>
         </div>
-
    </section>
 
    <!-- Website scripts -->
